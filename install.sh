@@ -15,11 +15,7 @@ elif [ "$yorn" = "n", "N", "No"]; then
     exit 0
 else
     echo "Invalid Input"
-
-echo "Cloning... [https://github.com/HubRobloxScript/Installer-Guide]"
-git clone https://github.com/HubRobloxScript/Installer-Guide
+fi
 sleep 1
-echo "Entering..."
-cd Installer-Guide
 chmod +x InstallerG.sh
 ./InstallerG.sh
